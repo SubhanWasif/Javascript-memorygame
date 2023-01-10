@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+
+    <div class="container m-auto mt-[3rem] w-[50rem] flex flex-col gap-[30px] justify-center items-center " >
+      <h1 id="attempts" class="text-[2rem] font-mono" >You Have 3 Wrong Attempts!!</h1>
+        <div id="buttons" class="bg-yellow-100 flex flex-wrap"> 
+        
+
+        </div>
+        <button id="restart" class="border-[1px] rounded-2xl bg-white text-[30px] font-serif py-[5px] px-[15px] hover:text-opacity-[0.6] hover:bg-gray-100">Restart</button>
+    </div>
+
+
+
+
+</body>
+<script src="main.js"></script>
+</html>
